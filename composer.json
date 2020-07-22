@@ -1,0 +1,17 @@
+{
+    "name": "leanhhoaivui/test_git",
+    "description": "A test packagist",
+    "type": "library",
+    "keywords": ["lahvui","test"],
+    "homepage": "http://github.com/leanhhoaivui/test_git",
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {},
+    "autoload": {
+         "psr-4": {
+            "leanhhoaivui\\TestGit\\": "src/"
+        }
+    }
+}
